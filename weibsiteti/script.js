@@ -42,3 +42,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
 jarallax(document.querySelectorAll('.jarallax'), {
     speed: 0.5
 });
+
+
+// loader
+window.addEventListener("load", function() {
+    const loader = document.getElementById("loader");
+    if (loader) {
+        loader.style.display = "none";
+    }
+});

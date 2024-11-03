@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Style.css -->
     <link rel="stylesheet" href="style.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
 </head>
 <body>
     <!-- svg icon -->
@@ -146,6 +148,12 @@
         </symbol>
     </svg>
     <!-- svg icon -->
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+    <!-- Loader -->
+
+    <!-- navbar -->
     <header id="header">
         <nav class="header-top" id="navbarTop" >
             <div class="container">
@@ -206,7 +214,7 @@
         <div class="prestasi-page">
             <div class="prestasi">
                 <div class="container my-5">
-                    <h2 class="text-center mb-4">Prestasi Program Studi Teknik Informatika</h2>
+                    <h2 class="fw-bold text-center animate__animated animate__fadeInUp mb-4">Prestasi Program Studi Teknik Informatika</h2>
 
                     <div class="scroll-top">
                         <div class="scrollbar"></div>
@@ -341,7 +349,7 @@
               <a href="/visimisi.html">Visi Misi</a>
               <a href="/strucktur.html">Structur</a>
               <a href="/prestasi.html">Prestasi</a>
-              <a href="/fasilitas.html">Prestasi</a>
+              <a href="/fasilitas.html">Fasilitas</a>
             </div>
             <div class="col-lg-4 mt-lg-0 mt-5">
               <h5 class="fw-bold mb-3">Subscribe Untuk Info Menarik</h5>
@@ -374,6 +382,15 @@
       </div>
     </section>
 
+
+<script>
+  window.addEventListener("load", function() {
+      const loader = document.getElementById("loader");
+      if (loader) {
+          loader.style.display = "none";
+      }
+  });
+</script>
 <!-- Script js -->
 <script src="script.js"></script>
 

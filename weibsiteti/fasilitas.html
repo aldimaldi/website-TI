@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- jarallax -->
     <link href="https://cdn.jsdelivr.net/npm/jarallax@1.12.6/dist/jarallax.css" rel="stylesheet" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
 </head>
 <body>
     <!-- svg icon -->
@@ -148,6 +150,12 @@
         </symbol>
     </svg>
     <!-- svg icon -->
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+    <!-- Loader -->
+
+    <!-- navbar -->
     <header id="header">
         <nav class="header-top" id="navbarTop" >
             <div class="container">
@@ -205,22 +213,22 @@
     </header>
 
     <!-- fasilitas -->
-    <section id="fasilitas" class="fasilitas w-100 min-vh-100 ">
-        <h1 class="fw-bold text-center mb-3">Fasilitas</h1>
+    <section id="fasilitas" class="fasilitas">
+        <h1 class="fw-bold text-center animate__animated animate__fadeInUp mb-3 mt-5">Fasilitas</h1>
         <div class="fasilitas-block position-relative">
             <div class="jarallax fasilitas-bg" data-jarallax data-speed="0.5"
                 style="background-image: url(./assets/img/fasilitas_1.jpg); background-size: cover; background-repeat: no-repeat;  background-position: center; ">
             </div>
             <div class="container fasilitas-content position-absolute top-50 start-50 translate-middle">
                 <div class="row align-items-center">
-                <div class="col-lg-9">
-                    <h3 class="display-6 fw-semibold text-white mb-4">Lab Multimedia</h3>
-                    <p class="text-white">Fasilitas yang didesain untuk kebutuhan produksi konten digital seperti podcast, video, dan proyek multimedia lainnya.</p>
-                </div>
-                <div class="col-lg-3 text-lg-end">
-                    <a href="index.html" class="btn btn-outline-light fasilitas-btn">lihat gambar</a>
-                </div>
-                </div>
+                  <div class="col-lg-9">
+                      <h3 class="display-6 fw-semibold text-white mb-4">Lab Multimedia</h3>
+                      <p class="text-white">Fasilitas yang didesain untuk kebutuhan produksi konten digital seperti podcast, video, dan proyek multimedia lainnya.</p>
+                  </div>
+                  <div class="col-lg-3 text-lg-end">
+                      <a href="index.html" class="btn btn-outline-light fasilitas-btn">lihat gambar</a>
+                  </div>
+                  </div>
             </div>
         </div>
         <div class="fasilitas-block position-relative">
@@ -229,13 +237,13 @@
             </div>
             <div class="container fasilitas-content position-absolute top-50 start-50 translate-middle">
                 <div class="row align-items-center">
-                <div class="col-lg-9">
-                    <h3 class="display-6 fw-semibold text-white mb-4">Lab Software Engineering</h3>
-                    <p class="text-white">fasilitas yang berfokus pada pengembangan, pengujian, dan pemeliharaan perangkat lunak.</p>
-                </div>
-                <div class="col-lg-3 text-lg-end">
-                    <a href="index.html" class="btn btn-outline-light fasilitas-btn">lihat gambar</a>
-                </div>
+                  <div class="col-lg-9">
+                      <h3 class="display-6 fw-semibold text-white mb-4">Lab Software Engineering</h3>
+                      <p class="text-white">fasilitas yang berfokus pada pengembangan, pengujian, dan pemeliharaan perangkat lunak.</p>
+                  </div>
+                  <div class="col-lg-3 text-lg-end">
+                      <a href="index.html" class="btn btn-outline-light fasilitas-btn">lihat gambar</a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -245,13 +253,13 @@
             </div>
             <div class="container fasilitas-content position-absolute top-50 start-50 translate-middle">
                 <div class="row align-items-center">
-                <div class="col-lg-9">
-                    <h3 class="display-6 fw-semibold text-white mb-4">Lab Knowledge and Reliable Intelligent System (K&RIS)</h3>
-                    <p class="text-white">fasilitas penelitian dan pembelajaran yang berfokus pada pengembangan sistem cerdas yang andal dan berbasis pengetahuan.</p>
-                </div>
-                <div class="col-lg-3 text-lg-end">
-                    <a href="index.html" class="btn btn-outline-light fasilitas-btn">Lihat gambar</a>
-                </div>
+                  <div class="col-lg-9">
+                      <h3 class="display-6 fw-semibold text-white mb-4">Lab Knowledge and Reliable Intelligent System (K&RIS)</h3>
+                      <p class="text-white">fasilitas penelitian dan pembelajaran yang berfokus pada pengembangan sistem cerdas yang andal dan berbasis pengetahuan.</p>
+                  </div>
+                  <div class="col-lg-3 text-lg-end">
+                      <a href="index.html" class="btn btn-outline-light fasilitas-btn">Lihat gambar</a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -261,13 +269,13 @@
             </div>
             <div class="container fasilitas-content position-absolute top-50 start-50 translate-middle">
                 <div class="row align-items-center">
-                <div class="col-lg-9">
-                    <h3 class="display-6 fw-semibold text-white mb-4">Geospatial Information Technology (GIT)</h3>
-                    <p class="text-white">fasilitas di bidang teknik informatika yang berfokus pada teknologi informasi geospasial. mencakup pemetaan, pengelolaan, analisis, dan visualisasi data geospasial, yang digunakan untuk memahami fenomena yang berkaitan dengan lokasi dan ruang. </p>
-                </div>
-                <div class="col-lg-3 text-lg-end">
-                    <a href="index.html" class="btn btn-outline-light fasilitas-btn">Lihat gambar</a>
-                </div>
+                  <div class="col-lg-9">
+                      <h3 class="display-6 fw-semibold text-white mb-4">Geospatial Information Technology (GIT)</h3>
+                      <p class="text-white">fasilitas di bidang teknik informatika yang berfokus pada teknologi informasi geospasial. mencakup pemetaan, pengelolaan, analisis, dan visualisasi data geospasial, yang digunakan untuk memahami fenomena yang berkaitan dengan lokasi dan ruang. </p>
+                  </div>
+                  <div class="col-lg-3 text-lg-end">
+                      <a href="index.html" class="btn btn-outline-light fasilitas-btn">Lihat gambar</a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -307,7 +315,7 @@
               <a href="/visimisi.html">Visi Misi</a>
               <a href="/strucktur.html">Structur</a>
               <a href="/prestasi.html">Prestasi</a>
-              <a href="/fasilitas.html">Prestasi</a>
+              <a href="/fasilitas.html">Fasilitas</a>
             </div>
             <div class="col-lg-4 mt-lg-0 mt-5">
               <h5 class="fw-bold mb-3">Subscribe Untuk Info Menarik</h5>
@@ -359,8 +367,21 @@
         </div>
     </div>
 
+
+<script>
+  window.addEventListener("load", function() {
+      const loader = document.getElementById("loader");
+      if (loader) {
+          loader.style.display = "none";
+      }
+  });
+</script>
+
 <!-- jarallax -->
 <script src="https://cdn.jsdelivr.net/npm/jarallax@1.12.6/dist/jarallax.min.js"></script>
+
+<!-- Script js -->
+<script src="script.js"></script>
 
 <!-- animation on scroll -->  
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -371,7 +392,5 @@
 <!-- Boostrap javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<!-- Script js -->
-<script src="script.js"></script>
 </body>
 </html>
