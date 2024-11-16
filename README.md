@@ -4,7 +4,7 @@
 Website ini dibuat sebagai bagian dari kompetisi pembuatan front end website dalam acara **Gebyar IT Himatekinfo 2024** yang diselenggarakan oleh **Himatekinfo UIKA Bogor**. Website ini dirancang untuk memperkenalkan dan mempromosikan Program Studi Teknik Informatika Universitas Ibn Khaldun Bogor kepada calon mahasiswa, orang tua, dan masyarakat umum.
 
 ## 🖥 Demo
-https://gebyar-it-aldimaldi.vercel.app/
+https://gebyar-it-ti-uika.vercel.app/
 
 
 ## 🚀Fitur Utama
